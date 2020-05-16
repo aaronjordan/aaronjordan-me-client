@@ -1,7 +1,7 @@
 .content {
   margin: 0 auto;
   max-width: var(--desktop-width);
-  padding: 0 12px;
+  padding: 0 6px;
   min-height: 75vh;
   font-size: 1.2rem;
 }
@@ -51,7 +51,7 @@
 }
 
 .tightFollow {
-  margin-bottom: 6px;
+  margin-bottom: 6px !important;
 }
 
 .cardTitle {
@@ -145,4 +145,119 @@ a.ico {
 
 .email a {
   color: inherit;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 6px 0;
+}
+
+p.short label {
+  display: inline-block;
+  line-height: 1;
+  width: 60px;
+  height: 24pt;
+  font-size: inherit;
+  margin-top: 5pt;
+}
+
+p.short input {
+  height: 24pt;
+  border: 2px solid lightgrey;
+  border-radius: 6px;
+  width: calc(100% - 80px);
+  font-size: inherit;
+  padding-left: 6px;
+  float: right;
+  transition: 0.5s ease;
+}
+
+P.short input:focus {
+  border: 2px solid var(--form-focus);
+  transition: 0.5s ease;
+}
+
+p.txa {
+  margin-top: -6px;
+}
+
+div.form-alert {
+  background-color: rgba(255, 14, 14, 0.25);
+  margin: 12px 5%;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 12pt;
+  margin-top: 6px;
+  border: 2px solid lightgrey;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px;
+  resize: none;
+  transition: 0.5s ease;
+}
+
+textarea:focus {
+  border: 2px solid var(--form-focus);
+  transition: 0.5s ease;
+}
+
+p.buttons {
+  padding-top: 9px;
+  text-align: center;
+  margin: auto;
+}
+
+form button {
+  margin: 0 6px;
+  width: 40%;
+  max-width: 128px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: white;
+  background-color: rgb(88, 161, 225);
+  border: 0;
+  transition: 0.2s ease;
+}
+
+form button:hover {
+  background-color: var(--form-focus);
+  transition: 0.2s ease;
+}
+
+form button:active {
+  background-color: rgb(35, 74, 108);
+  transition: none;
+}
+
+form.final {
+  margin: 24px 0;
+  padding: 90px 0;
+  text-align: center;
+  background: linear-gradient(135deg, rgb(198, 254, 220), var(--solo-teal) 200%);
+  border: 1px solid lightgray;
+  text-shadow: white 0 0 12px;
+  box-shadow: darkgrey 0px 20px 15px -15px;
+}
+
+form.error {
+  margin: 24px 0;
+  padding: 90px 0;
+  text-align: center;
+  background-color: rgb(254, 250, 197);
+  border: 1px solid lightgray;
+  text-shadow: white 0 0 12px;
+  box-shadow: darkgrey 0px 20px 15px -15px;}
+
+form .error {
+  /* FIXME remove this style after re-entry */
+  border-color: lightcoral !important;
 }

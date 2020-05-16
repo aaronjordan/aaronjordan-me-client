@@ -35,6 +35,10 @@ class Hero extends Component {
   render() {
     return (
       <section className="hero">
+        <div className="mobile">
+          <img src={Profile} alt="aaron-profile" />
+        </div>
+        <div className="desktop">
           <div className="inner">
             <img src={Profile} alt="aaron-profile" />
             <div className="headline">
@@ -43,6 +47,7 @@ class Hero extends Component {
               <AngleRightIcon className="spin" onClick={this.handleClick} size="lg"/>
             </div>
             <div className="glowHelper"></div>
+          </div>
         </div>
       </section>
     );
