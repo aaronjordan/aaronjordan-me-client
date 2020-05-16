@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Coaching Portal",
+    "company": "Five Capitals",
+    "text": "My role at Five Capitals began with assisting in ecommerce integration and has now led to leading development of a premium coaches' area of the website. There, coaches can easily find up-to-date content to help them lead others, a process which before was a mess of Google Drive sharing and outdated local PDFs. As I have limited access to the backend, I have used JQuery and CSS to generate and manipulate DOM elements to provide new layouts and functionality.",
+    "links": {
+      "vimeo": "/", 
+      "extlink": "https://www.fivecapitals.net"
+    },
+    "image": "",
+    "caption": "The Coaching Portal of the Five Capitals website."
+  },
+  {
+    "name": "Company Site",
+    "company": "Impactful Media",
+    "text": "Impactful Media is the brand I've been drawn to create for my freelance work. The website serves as a quick summary of the company and an easy method to get in touch with me. At the time, I wanted to build experience with vanilla ES6 Javascript, so the page uses the Fetch API for email submission and requires minimal frameworks. The backend server runs on Node.js with Express and Mailgun, which are the only dependencies of the project. The only external script loaded by the client is Font Awesome's CDN.",
+    "links": {
+      "github": "https://www.github.com/aaronjordan/impactful-media/",
+      "extlink": "https://impactfulmedia.co"
+    },
+    "image": "",
+    "caption": "The modern, lightweight Impactful Media website."
+  },
+  {
+    "name": "Audio Processing Analysis",
+    "company": "CSCI 310: Intro to Computer Architecture",
+    "text": "During my time in CSCI 310, I was given the opportunity to do a research paper on a topic of my choice in computer hardware. Having a background in audio engineering and interest in digital signal processing, the topic of filtering was an exciting choice. I used a Terasic DE-10 Standard and some starter code on Github, which I mapped from the DE-2 to the DE-10 and filtered several audio samples through. Analysis of the harmonic texture of the filtered output is discussed in the report.",
+    "links": {
+      "read": "https://drive.google.com/file/d/1Gmh2oL1zlLgT_UIummnMAcS4tDSuMSTb/view?usp=sharing"
+    },
+    "image": "",
+    "caption": "My report on audio processing from CSCI 310."
+  }
+]

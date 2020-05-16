@@ -1,0 +1,126 @@
+.navMenu {
+  background-color: #f2f2f2;
+  min-height: var(--header-height);
+  box-shadow: rgba(0,0,0,0.2) 0 -12px 18px -21px inset;
+  border-bottom: 1px solid lightgray;
+
+  nav {
+    max-width: var(--desktop-width);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  div {
+    position: relative;
+    display: inline-block;
+    width: var(--logo-width);
+    height: var(--header-height);
+  }
+
+  .logo img {
+    position: absolute;
+    top: 0px; left: 0px;
+    display: inline-block;
+    width: 380px;
+    max-width: 100%;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  li {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+
+    span {
+      position: absolute;
+      left: 34%;
+      top: 23%;
+      border-radius: 50%;
+      background: rgba(0, 173, 211, 0.0);
+      box-shadow: rgba(0, 173, 211, 0.0) 0 5px 10px 9px;
+      transition: all 0.2s;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    padding-top: 47px;
+    border-radius: 50%;
+    color: var(--midgray);
+    text-align: center;
+    transition: all 0.2s;
+    transition: box-shadow 0s;
+    font-size: 0.8rem;
+
+    &.active {
+      background: linear-gradient(0, #777, #555555);
+      box-shadow: rgba(0,0,0,0.4) 0 5px 10px -2px inset;
+      color: var(--background) !important;
+      text-shadow: #333 0 0 9px !important;
+      span {
+        background: rgba(0, 173, 211, 0.0) !important;
+        box-shadow: rgba(0, 173, 211, 0.0) 0 5px 10px 9px !important;
+      }
+    }
+
+    &:hover {
+      color: rgb(41, 127, 146);
+      text-shadow: rgba(41, 127, 146, 0.6) 0 3px 18px;
+      span {
+        background: rgba(0, 173, 211, 0.08);
+        box-shadow: rgba(0, 173, 211, 0.08) 0 5px 10px 9px;
+      }
+    }
+
+  }
+
+  // filters transition from default color (similar to --solo-teal)
+  // to desired hue for element. Good for monochrome menu items.
+
+  .red {
+    filter: hue-rotate(165deg);
+  }
+
+  .orange {
+    filter: hue-rotate(200deg) saturate(115%);
+  }
+
+  .green {
+    filter: hue-rotate(290deg);
+  }
+
+  .blue {
+    filter: hue-rotate(40deg);
+  }
+
+  .purple {
+    filter: hue-rotate(65deg);
+  }
+
+  @media screen and (max-width: 1050px){
+    nav {
+      justify-content: center !important;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+  }
+
+}

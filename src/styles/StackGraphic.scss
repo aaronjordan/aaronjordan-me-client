@@ -1,0 +1,51 @@
+// depends on bodyComponent in scope
+
+.devIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-bottom: 36px;
+  border-bottom: 1px solid lightgray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  svg {
+    width: 75px;
+    height: 75px;
+    margin: 12px;
+  }
+
+  .icon {
+    line-height: 55px;
+  }
+
+  &.priority svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  &.subtle svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .react:hover {
+      animation: React-logo-spin 20s infinite linear;
+    }
+  }
+
+}
+
+@keyframes React-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
