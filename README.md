@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# aaronjordan-me-client
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It houses the React frontend for my personal website.
+
+What follows is the default create-react-app information.
 
 ## Available Scripts
 
