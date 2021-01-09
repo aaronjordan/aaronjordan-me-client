@@ -24,8 +24,7 @@ class Home extends Component {
         <article className="card">
           <Link className="flyingLink" to="/about">More</Link>
           <h1>About<span className="subtle">(quickly)</span></h1>
-          <p>I am a software developer from Pawleys Island, South Carolina. I'm currently finishing up a B.S. in Computer Science, after which I plan to move to New York City or somewhere similar where I see great opportunities. Through college, I've done freelance web development in my spare time between classes, clubs, and ministry leadership. I am passionate about software engineering and front-end development and am seeking opportunities to build my skills and portfolio.</p>
-          <StackGraphic />
+          <p>I am a software developer from Pawleys Island, South Carolina, currently living in Austin, Texas. I recently completed a B.S. in Computer Science, after which I was given a great opportunity to come work and learn at General Motors. There, I am a frontend software developer working mainly with React.</p>          <StackGraphic />
         </article>
         <article className="card">
         <Link className="flyingLink" to="/projects">More</Link>

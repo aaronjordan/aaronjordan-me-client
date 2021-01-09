@@ -33,19 +33,11 @@
     height: 60px;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .react:hover {
-      animation: React-logo-spin 20s infinite linear;
-    }
-  }
-
 }
 
-@keyframes React-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.now_note {
+  background: rgb(193, 240, 201);
+  border-radius: 6px;
+  padding: 6px 18px;
+  box-shadow: darkgrey 0px 3px 12px -6px;
 }

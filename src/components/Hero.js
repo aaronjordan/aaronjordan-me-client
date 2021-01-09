@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Profile from '../img/aaronNY.JPG';
+import Profile from '../img/uap20-sm.jpg';
 import { AngleRightIcon } from '@patternfly/react-icons';
 import '../styles/Hero.scss';
 
@@ -11,7 +11,7 @@ class Hero extends Component {
       idx: 0,
       saying: [
         "I develop software.",
-        "I mostly do front-end development.",
+        "Most of my work so far has been in front-end development.",
         "My first programming language was C.",
         "In college, I learned the fundamentals of computing and OO programming.",
         "More than anything, I enjoy working with frameworks like React and Angular.",

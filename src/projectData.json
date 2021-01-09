@@ -2,7 +2,7 @@
   {
     "name": "Coaching Portal",
     "company": "Five Capitals",
-    "text": "My role at Five Capitals began with assisting in ecommerce integration and has now led to leading development of a premium coaches' area of the website. There, coaches can easily find up-to-date content to help them lead others, a process which before was a mess of Google Drive sharing and outdated local PDFs. As I have limited access to the backend, I have used JQuery and CSS to generate and manipulate DOM elements to provide new layouts and functionality.",
+    "text": "My role at Five Capitals began with assisting in ecommerce integration and has now led to leading development of a premium coaches' area of the website. This area enables coaches to find training and coaching documents. Before, the process was a mess of Google Drive sharing and outdated local PDFs. Now, there is a central hub where coaches can always access the latest tools. As I have limited access to the backend, I have used JQuery and CSS to generate and manipulate DOM elements to provide the new layouts and functionality.",
     "links": {
       "vimeo": "/", 
       "extlink": "https://www.fivecapitals.net"
@@ -13,7 +13,7 @@
   {
     "name": "Company Site",
     "company": "Impactful Media",
-    "text": "Impactful Media is the brand I've been drawn to create for my freelance work. The website serves as a quick summary of the company and an easy method to get in touch with me. At the time, I wanted to build experience with vanilla ES6 Javascript, so the page uses the Fetch API for email submission and requires minimal frameworks. The backend server runs on Node.js with Express and Mailgun, which are the only dependencies of the project. The only external script loaded by the client is Font Awesome's CDN.",
+    "text": "Impactful Media is the brand I created for my freelance work. The website serves as a quick summary of the company and an easy method to get in touch with me. At the time, I wanted to build experience with vanilla ES6 Javascript, so the page uses the Fetch API for email submission and requires minimal frameworks. The backend server runs on Node.js with Express and Mailgun, which are the only dependencies of the project. The only external script loaded by the client is Font Awesome's CDN.",
     "links": {
       "github": "https://www.github.com/aaronjordan/impactful-media/",
       "extlink": "https://impactfulmedia.co"

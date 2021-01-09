@@ -2,15 +2,16 @@
 
   --img-height: 250px;
 
-  .desktop { display: none; }
+  .desktop { 
+    display: none; 
+  }
 
   .mobile {
     padding-top: 36px;
     text-align: center;
 
     img {
-      box-shadow: lightgray 0 0 24px;
-      border: solid 1px lightgray;
+      box-shadow: rgba(43, 42, 42, 0.5) 0 0 24px;
     }
   }
 
@@ -24,6 +25,8 @@
 
     padding: 96px 0;
     margin: 24px 0;
+
+    img { margin-right: 50px; }
 
     .mobile {
       display: none;
@@ -51,7 +54,7 @@
     height: var(--img-height);
     box-sizing: border-box;
     border-radius: calc(var(--img-height) / 2);
-    margin-right: 50px;
+    // box-shadow: blue 0 0 24px inset;
     position: relative;
     left: -1px;
   }
@@ -69,6 +72,8 @@
     display: block;
     width: 100%;
     font-size: 2rem;
+    padding-right: 64px;
+    box-sizing: border-box;
   }
 
   .glowHelper {
