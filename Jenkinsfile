@@ -9,7 +9,11 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'echo "running build" \\ npm run build'
+        sh '''echo "running build";
+
+
+
+ npm run build'''
       }
     }
 
