@@ -6,8 +6,8 @@ import StackGraphic from './StackGraphic';
 import ProjectItem from './ProjectItem';
 
 import projectJSON from '../projectData.json';
-import fcImg from '../img/fcPortal.png';
-import imcImg from '../img/imcSplash.png';
+import gmImg from '../img/chevrolet.png';
+import maImg from '../img/mazlinaaroncom.png';
 import '../styles/bodyComponent.scss';
 
 class Home extends Component {
@@ -15,8 +15,8 @@ class Home extends Component {
   render() {
 
     let projectData = [...projectJSON];
-    projectData[0].image = fcImg;
-    projectData[1].image = imcImg;
+    projectData[0].image = gmImg;
+    projectData[1].image = maImg;
 
     return (
       <main className="content home">
@@ -24,7 +24,8 @@ class Home extends Component {
         <article className="card">
           <Link className="flyingLink" to="/about">More</Link>
           <h1>About<span className="subtle">(quickly)</span></h1>
-          <p>I am a software developer from Pawleys Island, South Carolina, currently living in Austin, Texas. I recently completed a B.S. in Computer Science, after which I was given a great opportunity to come work and learn at General Motors. There, I am a frontend software developer working mainly with React.</p>          <StackGraphic />
+          <p>I am a software developer in Austin, Texas, originally from the Myrtle Beach area of South Carolina. In 2020, I completed a B.S. in Computer Science, after which I have had a great opportunity to come work at General Motors. There, I am a frontend software developer working mainly with React and Node.js.</p>
+          <StackGraphic />
         </article>
         <article className="card">
         <Link className="flyingLink" to="/projects">More</Link>

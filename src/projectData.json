@@ -1,5 +1,27 @@
 [
   {
+    "name": "GM Ecommerce Applications",
+    "company": "General Motors",
+    "text": "On my first project at General Motors, I contributed to the rewrite of the Accessories e-commerce application. As a team, we delivered a more modern and swift user interfance to enhance the experience both for customers and retailers (dealers) for aftersale items. Most of my work pertained to the internal application used to process orders by dealers and distribution centers. The project helped me build an understanding of how to build software that scales well, both in the sense of it being a large codebase and it having large user base. In addition, I reached a deep understanding of JavaScript through the process, at one point even implementing my own XLSX (Microsoft Excel File) writer in the language.",
+    "links": {
+      "vimeo": "/", 
+      "extlink": "https://accessories.chevrolet.com"
+    },
+    "image": "",
+    "caption": "The Chevrolet Accessories website."
+  },
+  {
+    "name": "My Wedding Website",
+    "company": "Personal",
+    "text": "Applying what I learned through the first year of working for General Motors, I built a wedding website for myself and my fiancé (who is now my wife!). Most of the site is built on a React/NodeJS/Express platform, similar to this site. It included a few key components: a secure RSVP section powered by OAuth (Google/Facebook) sign-in, a self-hosted livestream for my out-of-state family to stream the event, sections for our Target registry as well as hotel information, and — of course — many photos from all stages of our relationship! The areas of the site which are still relevant are still accessible today, with all of our wedding photos added to the photo gallery.",
+    "links": {
+      "github": "https://www.github.com/aaronjordan/mazlinandaaron.com/",
+      "extlink": "https://www.mazlinandaaron.com"
+    },
+    "image": "",
+    "caption": "My own wedding website!"
+  },
+  {
     "name": "Coaching Portal",
     "company": "Five Capitals",
     "text": "My role at Five Capitals began with assisting in ecommerce integration and has now led to leading development of a premium coaches' area of the website. This area enables coaches to find training and coaching documents. Before, the process was a mess of Google Drive sharing and outdated local PDFs. Now, there is a central hub where coaches can always access the latest tools. As I have limited access to the backend, I have used JQuery and CSS to generate and manipulate DOM elements to provide the new layouts and functionality.",

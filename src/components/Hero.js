@@ -13,11 +13,8 @@ class Hero extends Component {
         "I develop software.",
         "Most of my work so far has been in front-end development.",
         "My first programming language was C.",
-        "In college, I learned the fundamentals of computing and OO programming.",
         "More than anything, I enjoy working with frameworks like React and Angular.",
         "Have a look below for more detail on my experience!",
-        "Yes, my family usually has me fix the WiFi.",
-        "Yes, people do call me A-A-Ron.",
       ]
     };
     this.handleClick = this.handleClick.bind(this);

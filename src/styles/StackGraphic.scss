@@ -6,7 +6,7 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  padding-bottom: 36px;
+  padding: 0px 15% 36px;
   border-bottom: 1px solid lightgray;
 
   &:last-child {
@@ -40,4 +40,37 @@
   border-radius: 6px;
   padding: 6px 18px;
   box-shadow: darkgrey 0px 3px 12px -6px;
+}
+
+.controls {
+
+  button.flyingLink.toggle {
+    float: unset;
+    margin: 0 auto;
+    display: block;
+    transform: scale(0.8);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+div#TextList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  section.col {
+    min-width: 250px;
+    width: 30%;
+    display: inline-block;
+  }
+  
+  ul {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    margin-bottom: 64px;
+  }
 }
